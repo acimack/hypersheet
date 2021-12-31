@@ -1,0 +1,27 @@
+@import '../../../global/globalCssVariables.scss';
+
+.changeView-container {
+  max-width: 720;
+  min-width: 100;
+}
+
+.divider {
+  width: 3px;
+  background-color: $secondary-background-color;
+  cursor: ew-resize;
+  transition: 0.05s;
+
+  &:hover {
+    width: 10px;
+  }
+}
+
+.change-button {
+  margin-top: 50px;
+  height: 40px;
+  width: 215px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

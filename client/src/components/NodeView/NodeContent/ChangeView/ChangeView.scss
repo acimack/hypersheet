@@ -1,0 +1,17 @@
+@import '../../../../global/globalCssVariables';
+
+.changeView-wrapper {
+  display: block;
+  margin: auto;
+  // align-self: center;
+  position: relative;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  overflow: scroll;
+  padding: 20px;
+
+  // padding: 20px 0px 20px 0px;
+}
+

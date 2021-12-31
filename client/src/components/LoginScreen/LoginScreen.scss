@@ -1,0 +1,50 @@
+@import '../../global/globalCssVariables';
+
+.container {
+  position: absolute;
+  top: 27%;
+  // -ms-transform: translateY(-50%);
+  // transform: translateY(-50%);
+}
+
+
+.login-text-container {
+  white-space: none;
+}
+
+.login-text {
+  display: inline-block;
+}
+
+
+.login-link {
+  margin-left: 2px;
+  color: $link-dark;
+  text-decoration: underline;
+}
+
+.login {
+  position: relative;
+  width: 350px;
+  height: 200px;
+  margin: auto;
+}
+
+.alert-box {
+  margin-top: 10px;
+  height: 50px;
+}
+
+.image-upload {
+  height: 40px;
+  margin-top: 5px;
+}
+
+
+
+.demo {
+  font-weight: 600;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+}

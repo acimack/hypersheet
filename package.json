@@ -1,0 +1,20 @@
+{
+  "name": "basic-hypermedia",
+  "version": "1.0.0",
+  "description": "basic hypermedia",
+  "author": "Jinoo Hong, Peter Li, Xinzhe Chai & Geireann Lindfield Roberts",
+  "license": "MIT",
+  "scripts": {
+    "start": "node error.js",
+    "install": "node error.js",
+    "lint": "node error.js"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.24",
+    "firebase": "^9.6.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-spreadsheet": "^0.6.0",
+    "scheduler": "^0.20.2"
+  }
+}

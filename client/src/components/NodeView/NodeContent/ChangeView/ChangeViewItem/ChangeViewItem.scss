@@ -1,0 +1,128 @@
+@import '../../../../../global/globalCssVariables.scss';
+
+.changeView-item {
+  transition: 0.2;
+  display: block;
+  margin: auto; 
+  //text-align: center;
+  //margin-left: 5em;
+  // margin-right: auto;
+
+  .item-wrapper {
+    width: 700px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 4px;
+    cursor: pointer;
+    background-color: white;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: darken($primary-background-color, 10);
+    }
+
+    &.false {
+      &:hover {
+        background-color: darken($primary-background-color, 10);
+      }
+    }
+
+    &.true {
+      background-color: $selected-color;
+
+      &:hover {
+        background-color: darken($selected-color, 10);
+      }
+    }
+
+    .icon-hover {
+      display: flex;
+      margin: 2px;
+      width: 20px;
+      height: 20px;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      transition: 0.2s;
+      border-radius: 4px;
+
+      .icon-wrapper {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        transition: 0.2s;
+      }
+
+      &.true {
+        &:hover {
+          background-color: rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+
+    .version-info {
+      align-content: top;
+      align-self: left;
+      color: darken(white, 40);
+      float: right;
+      width: max-content;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .left-change {
+      display: flex;
+      align-content: top;
+      justify-content: flex-start;
+    }
+
+    .user-info {
+      height: 25px;
+      width: 25px;
+      object-fit: cover;
+      border-radius: 15px;
+      margin-left: 10px;
+      margin-right: 15px;
+    }
+
+    .text-wrapper {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 2em;
+      padding-left: 2em;
+      -webkit-user-select: none;
+      user-select: none;
+      width: 100%;
+      overflow: scroll;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .content-wrapper {
+      -webkit-user-select: none;
+      margin-left: 5px;
+      margin-top: 15px;
+      user-select: none;
+      width: 100%;
+      overflow: scroll;
+      white-space: nowrap;
+      // text-overflow: ellipsis;
+    }
+  }
+
+  .item-children {
+    position: relative;
+    left: 28px;
+
+    &.false {
+      display: none;
+    }
+  }
+}

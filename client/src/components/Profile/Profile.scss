@@ -1,0 +1,67 @@
+@import '../../global/globalCssVariables';
+$input-margin: 10px;
+
+.danger {
+  background-color: red;
+  color: white;
+}
+
+.loading {
+  height: 100%;
+  width: calc(100% - 350px);
+}
+
+.image-url {
+  font-weight: 400;
+}
+
+.profile-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input {
+  width: 400px;
+}
+
+.profile-image-modal {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.alert-box {
+  margin-top: 20px;
+  width: 100%;
+  display: inline-block;
+  height: 60px;
+}
+
+.profile-update {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.modal-input {
+  margin-top: $input-margin;
+}
+
+.web-file-container {
+  white-space: none;
+}
+
+.web-file-item {
+  display: inline-block;
+}
+
+.web-file-link {
+  margin-left: 2.5px;
+  color: $link-dark;
+  text-decoration: underline;
+}
